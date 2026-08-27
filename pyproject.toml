@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ml-from-scratch"
+version = "0.1.0"
+description = "ML algorithms implemented from scratch using NumPy"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+include = ["ml_from_scratch*"]

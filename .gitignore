@@ -15,3 +15,5 @@ Thumbs.db
 
 # Data (avoid committing large datasets)
 data/raw/
+
+*.egg-info/
