@@ -9,7 +9,7 @@ class BaseModel(ABC):
         self.is_fitted = False   # Keeps track of whether the model has been trained yet
 
     @abstractmethod
-    def fit(self, X: np.ndarray, Y:np.ndarray):
+    def fit(self, X: np.ndarray, y:np.ndarray):
         pass                     # Train the model. Needs to be implemented by every subclass
 
     @abstractmethod 
